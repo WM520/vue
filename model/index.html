@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="container">
+    <modal v-if="showModel" @close="showModel=false"></modal>
+    <button type="button" @click="swithShow" v-if="showButton">showmodel</button>
+
+</div>
+
+
+<script src="../component/vue.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
