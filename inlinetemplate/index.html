@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+        }
+        button {
+            background-color: aquamarine;
+            color: red;
+            border-radius:15px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <progressview inline-template>
+        <div>
+            <h1 style="color: cadetblue">this is progress-view, this course is {{ courseRate }}%</h1>
+            <p><button type="button" @click="add">update courseRate complete</button></p>
+        </div>
+    </progressview>
+</div>
+
+
+<script src="../component/vue.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
