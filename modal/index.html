@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="container">
+    <modal>
+        <h1 slot="header">my title</h1>
+        <div slot="body">我爱中国人民</div>
+        <div slot="footer">
+            <a class="button is-success">Save changes</a>
+            <a class="button">Cancel</a>
+        </div>
+    </modal>
+</div>
+
+<script src="../component/vue.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
